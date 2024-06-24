@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscreva-se</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Montserrat:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../styles/pagina-inicial/styles.css">
+    <link rel="stylesheet" href="../styles/formulario/styles.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="../img/logo.png" alt="logo de um c em vermelho">
+        
+    </header>
+    <main class="container">
+        <section class="formulario">
+            <div class="formulario__container">
+                <h5 class="formulario__frase-texto">Crie uma conta agora</h5>
+                <h2 class="formulario__titulo-texto">BEM-VINDO AO CIENTIFIQUE-SE!</h2>
+            </div>
+        <form class="principal__formulario" data-formulario>
+            <fieldset class="formulario__campo">
+                <label class="campo_etiqueta" for="nome">Nome Completo</label>
+                <input class="campo__escrita" name="nome" type="text" minlength="3" required>
+                <span class="mensagem-erro"></span>
+            </fieldset>
+
+            <fieldset class="formulario__campo">
+                <label class="campo__etiqueta" for="email">E-mail</label>
+                <input class="campo__escrita" name="email" type="email" minlength="4" required>
+                <span class="mensagem-erro"></span>
+            </fieldset>
+
+            <fieldset class="formulario__campo">
+                <label class="campo_etiqueta" for="senha">Senha</label>
+                <input class="campo__escrita" name="senha" type="password" minlength="8" 
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W_]).{8,}" 
+                title="A senha deve conter pelo menos 8 caracteres, incluindo um número, uma letra maiúscula, uma letra minúscula e um caractere especial." 
+                required>
+                <span class="mensagem-erro"></span>
+            </fieldset>
+
+            <div>
+                <input value="Criar minha conta" class="formulario__botao" id="enviar" data-botao-enviar type="submit">
+                <span class="mensagem-erro"></span>
+            </div>
+        </form>
+        </section>
+        <section class="imagem">
+            <img src="../img/estrela.png" alt="uma imagem de estrelas douradas" width="613"
+            height="749">
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="../JS/script.js"></script>
+</body>
+</html>

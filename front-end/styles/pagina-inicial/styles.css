@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+:root {
+    --fonte-principal: 'Inter', sans-serif;
+    --cor-primaria: #2069FF;
+    --cor-secundaria:#1649B2;
+    --cor-terciaria: #FF5500;
+    --cor-branco: #FFFFFF;
+    --cor-primaria03: #80A9FF;
+}
+
+body {
+    height: auto;
+    width: auto;
+    background-color: var(--cor-primaria);
+}
