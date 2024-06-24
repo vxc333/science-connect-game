@@ -37,7 +37,7 @@
 .principal__formulario {
     display: flex;
     flex-direction: column;
-    gap: 66px;
+    gap: 36px;
 }
 
 .formulario__campo {
@@ -82,5 +82,22 @@
 
 .imagem {
     display: block;
-    width: auto;
+}
+
+
+@media screen and (max-width:1200px) {
+    .container {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: auto;
+        gap: 20px;
+    }
+    .principal__formulario {
+        align-items: center;
+    }
+    .formulario__container {
+        display: flex;
+        text-align:  center;
+        flex-direction: column-reverse;
+    }
 }
