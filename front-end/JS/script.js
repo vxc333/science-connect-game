@@ -13,7 +13,7 @@ formulario.addEventListener("submit", (e) => {
 
     localStorage.setItem("cadastro", JSON.stringify(listaRespostas));
 
-    window.location.href = './landing-page.html';
+    window.location.href = '/landing-page.html';
 })
 
 camposDoFormulario.forEach((campo) => {
