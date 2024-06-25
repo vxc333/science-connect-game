@@ -12,7 +12,9 @@
 </head>
 <body>
     <header class="cabecalho">
-        <img src="./img/logo.png" alt="logo de um c em vermelho">
+        <div >
+            <img src="./img/logo.png" alt="logo de um c em vermelho">
+        </div>
         <div class="menu">
             <nav>
                 <a href="#inicio">Início</a>
@@ -23,7 +25,7 @@
         </div>
     </header>
     <main class="conteudo">
-        <section id="inicio">
+        <section class="inicio" id="inicio">
             <h1>Prepare-se para o sucesso!</h1>
             <p>
                 Junte-se a nós em uma jornada interativa de aprendizado e desafios! Conecte-se com outros estudantes, professores e 
@@ -34,18 +36,55 @@
             <img id="imagem-notebook" src="./img/notebook.png" alt="notebook" width="810"
             height="584">
         </section>
-        <div class="espacamento-sections"></div>
-        <!-- COMECAR AQUI A PAGINA DE EQUIPES -->
+        
         <section id="equipe">
-            <h1>Prepare-se para o EQUIPE!</h1>
-            <p>
-                Junte-se a nós em uma jornada interativa de aprendizado e desafios! Conecte-se com outros estudantes, professores e 
-                até cientistas enquanto testa seus conhecimentos e se prepara para<br> o sucesso acadêmico. Não perca tempo, inscreva-se 
-                agora no Certifique-se comece sua<br> jornada rumo ao conhecimento!
-            </p>
+            <h1 class="equipe__titulo">Equipe 20</h1>
+            <div class="equipe">
+                <div class="equipe-parte1">
+                    <div class="design">
+                        <h2 class="equipe__subtitulo">Design</h2>
+                            <p>Verônica Maria Santos Galvão</p>
+                            <p>Lindomar Dantas Conrado Filho</p>
+                            <p>José Vinicius Araujo Marques</p>
+                            <p>Regina Celia Viegas Santos</p>
+                    </div>
+    
+                    <div class="jogos">
+                        <h2 class="equipe__subtitulo">Jogos</h2>
+                            <p>Sebastião Kauã Mendes Lopes Da Silva</p>
+                            <p>Vitória Gabriela Santos Dos Remédios</p>
+                    </div>
+    
+                    <div class="front">
+                        <h2 class="equipe__subtitulo">Front</h2>
+                            <p>Cairê Borges Jucá</p>
+                            <p>Gustavo Nonato Alves</p>
+                            <p>Gabriel Vinicius Oliveira E Silva</p>
+                            <p>Igor Da Silva Dutra</p>
+                            <p>Widson Martins Leite</p>
+                    </div>
+                </div>
+
+                <div class="equipe-parte2">
+                    <div class="dados">
+                        <h2 class="equipe__subtitulo">Dados</h2>
+                            <p>Aline Mariana Barros Silva</p>
+                            <p>Manassés Diniz Alencar</p>
+                            <p>Yuri David Do Nascimento Fernandes</p>
+                            <p>Pedro Mayro Silva Sousa</p>     
+                    </div>
+    
+                    <div class=" back">
+                        <h2 class="equipe__subtitulo">Back</h2>
+                            <p>Marcio Sá De Brito Junior</p>
+                            <p>Vitor Xavier Correia</p>
+                            <p>João Filipe Viegas Gomes</p>
+                            <p>Manoel Neto Da Assunção Dos Santos</p>
+                            <p>Gabriel Alves Da Silva</p>
+                    </div>
+                </div>
+            </div>
         </section>
-        <div class="espacamento-sections"></div>
-        <!-- COMECAR AQUI A PAGINA DE SUPORTE -->
         <section id="suporte">
             <h1>Entre em contato conosco</h1>
             <p>
@@ -59,7 +98,9 @@
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <p class="rodape-texto">cientifiquese@support.com</p>
+    </footer>
     
     <script src="./JS/index-script.js"></script>
 </body>

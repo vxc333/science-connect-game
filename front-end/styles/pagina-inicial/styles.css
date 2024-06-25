@@ -22,14 +22,21 @@ body {
 }
 
 .cabecalho{
+    background: var(--cor-primaria);
     display: flex;
     position: fixed;
-    padding: 2% 8%;
+    align-items: center;
+    justify-content: space-around;
+    gap: 813px;
+    padding: 2%;
+    width: 100%;
+    height: 36px;
     z-index: 1000;
 }
 
 .menu{
-    padding: 3% 260%;
+    text-align: center;
+    padding: 2%;
     display: block;
 }
 
@@ -65,6 +72,7 @@ nav span{
     transition: .5s;
 }
 
+
 .conteudo{
     display: flex;
     flex-direction: column;
@@ -75,7 +83,7 @@ nav span{
 
 #imagem-notebook{
     position: relative;
-    right: -50vw;
+    right: -98%;
     bottom: 0;
 }
 
@@ -114,6 +122,42 @@ button a{
     text-decoration: none;
 }
 
+.equipe{
+    display: flex;
+    gap: 120px;
+    align-items: center;
+    padding: 0% 8%;
+}
+
+.equipe__subtitulo{
+    font-family: var(--fonte-principal);
+    padding: 5% 0%;
+}
+
+.equipe__titulo{
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    padding: 2% 0%;
+}
+
+.equipe-parte1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 59px;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+}
+
+.equipe-parte2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 59px;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+}
+
 #suporte{
     text-align: center;
     padding-top: 2%;
@@ -138,5 +182,32 @@ button a{
 footer{
     height: 60px;
     background-color: aliceblue;
+}
+
+.rodape-texto{
+    color: var(--cor-terciaria);
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    padding: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1300px) {
+    .conteudo{
+        gap: 30px;
+        width: auto;
+        padding: auto;
+    }
+    .inicio {
+        justify-content: center;
+        flex-direction: column;
+       
+    }
+    #imagem-notebook{
+        
+        right: 0%;
+        width: 200%;
+    }
 
 }
