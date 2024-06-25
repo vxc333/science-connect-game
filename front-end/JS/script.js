@@ -16,6 +16,19 @@ formulario.addEventListener("submit", (e) => {
     window.location.href = './landing-page.html';
 })
 
+camposDoFormulario.forEach((campo) => {
+    campo.addEventListener("blur", () => verificaCampo(campo));
+    campo.addEventListener("invalid", evento => evento.preventDefault())
+})
+
+const tiposDeErro = [
+    'valueMissing',
+    'typeMismatch',
+    'patternMismatch',
+    'tooShort',
+    'customError'
+]
+
 const mensagens = {
     nome: {
         valueMissing: "O campo de nome não pode estar vazio.",
