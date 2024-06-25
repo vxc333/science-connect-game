@@ -65,6 +65,12 @@
     color: #E6E6E6;
 }
 
+.mensagem-erro {
+    color: red;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+}
+
 .formulario__botao {
     background: var(--cor-terciaria);
     display: block;
