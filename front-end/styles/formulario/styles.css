@@ -98,15 +98,34 @@
     .container {
         flex-direction: column-reverse;
         align-items: center;
-        padding: auto;
         gap: 20px;
+        padding: 5%;
     }
+
+    .formulario__titulo-texto {
+        width: auto;
+        font-size: 32px;
+    }
+
     .principal__formulario {
+        width: auto;
         align-items: center;
     }
+
+    .campo__escrita {
+        width: auto;
+    }
+
     .formulario__container {
         display: flex;
         text-align:  center;
         flex-direction: column-reverse;
+        padding: auto;
+    }
+
+    .imagem {
+        padding: auto;
+        width: auto;
+        height: auto;
     }
 }
