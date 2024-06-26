@@ -232,6 +232,10 @@ footer{
         width: 130vw;
     
     }
+
+    #logo{
+        display: none;
+    }
     
 }
 
