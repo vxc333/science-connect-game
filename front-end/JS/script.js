@@ -42,8 +42,7 @@ const mensagens = {
     },
     senha: {
         valueMissing: "O campo de senha não pode estar vazio.",
-        patternMismatch: "Por favor, preencha uma senha válida.",
-        tooShort: "O campo de senha não tem caractéres suficientes."
+        tooShort: "O campo de senha deve conter no mínimo 8 caractéres."
     }
 }
 
