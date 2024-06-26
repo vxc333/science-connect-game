@@ -81,13 +81,13 @@ nav span{
 
 #imagem-notebook{
     position: relative;
-    right: -50vw;
+    right: -98%;
     bottom: 0;
 }
 
 #imagem-equipe{
     position: relative;
-    right: -50vw;
+    right: -98%;
     bottom: 400px;
 }
 
@@ -242,16 +242,5 @@ footer{
     #logo{
         display: none;
     }
-    
-}
-
-@media screen and (max-width:1700px) {
-
-    .menu{
-        padding: 2% 190%;
-        display: block;
-    }
-    
-    
     
 }
