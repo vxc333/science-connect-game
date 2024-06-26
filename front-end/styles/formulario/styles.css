@@ -115,6 +115,10 @@
         width: auto;
     }
 
+    .formulario__botao {
+        width: auto;
+    }
+
     .formulario__container {
         display: flex;
         text-align:  center;
