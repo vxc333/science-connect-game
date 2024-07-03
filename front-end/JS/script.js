@@ -13,7 +13,7 @@ formulario.addEventListener("submit", (e) => {
 
     localStorage.setItem("cadastro", JSON.stringify(listaRespostas));
 
-    window.location.href = '/landing-page.html';
+    window.location.href = 'https://vitoria-gabriela.itch.io/cientifique-se';
 })
 
 camposDoFormulario.forEach((campo) => {
