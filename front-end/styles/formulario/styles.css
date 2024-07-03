@@ -20,8 +20,6 @@
     width: auto;
 }
 
-
-
 .formulario__frase-texto {
     font-family: var(--fonte-principal);
     font-size: 20px;
@@ -70,7 +68,8 @@
 .mensagem-erro {
     color: red;
     font-family: var(--fonte-principal);
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .formulario__botao {
@@ -90,11 +89,16 @@
 }
 
 .imagem {
-    display: block;
+    width: 50%;
 }
 
 
 @media screen and (max-width:1200px) {
+    .logo {
+        padding: 5%;
+        width: 50px;
+    }
+    
     .container {
         flex-direction: column;
         align-items: center;
@@ -103,17 +107,21 @@
     }
 
     .formulario__titulo-texto {
-        width: auto;
-        font-size: 32px;
+        width: 100%;
+        font-size: 36px;
     }
 
     .principal__formulario {
-        width: auto;
+        width: 100%;
         align-items: center;
     }
 
+    .formulario__campo {
+        text-align: left;
+    }
+
     .campo__escrita {
-        width: auto;
+        width: 300px;
     }
 
     .formulario__botao {
@@ -128,8 +136,6 @@
     }
 
     .imagem {
-        padding: auto;
-        width: auto;
-        height: auto;
+        width: 100%;
     }
 }

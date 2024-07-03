@@ -81,14 +81,14 @@ nav span{
 
 #imagem-notebook{
     position: relative;
-    right: -98%;
+    right: -95%;
     bottom: 0;
 }
 
 #imagem-equipe{
     position: relative;
-    right: -49%;
-    bottom: 400px;
+    right: -46%;
+    bottom: 290px;
 }
 
 #inicio{
@@ -180,14 +180,21 @@ footer{
 
 }
 
-@media screen and (max-width:1000px) {
+
+@media screen and (max-width:1380px) {
 
     .espacamento-sections{
         height: 50px;
     }
 
     .cabecalho{
-        padding: 2.5%;
+        padding: 5% 0%;
+        width: 100%;
+        height: 20px;
+    }
+
+    .menu {
+        justify-content: space-evenly;
     }
 
     body{
@@ -225,6 +232,8 @@ footer{
         gap: 10px;
         margin-top: 5%;
         flex-direction: column;
+    
+    
     }
 
     .equipe-parte1{
@@ -243,12 +252,12 @@ footer{
     }
 
     footer{
-        height: 50px;
+        height: 100%;
         background-color: var(--cor-secundaria);
-        width: auto;
+        width: 100%;
     }
 
-    .rodape {
+    .rodape {   
         text-align: center;
         padding: 2%;
     }
