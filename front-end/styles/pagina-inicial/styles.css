@@ -225,8 +225,6 @@ footer{
         gap: 10px;
         margin-top: 5%;
         flex-direction: column;
-    
-    
     }
 
     .equipe-parte1{
@@ -240,6 +238,8 @@ footer{
 
     #suporte{
         width: auto;
+        padding: auto;
+        font-size: 12px;
     }
 
     footer{
